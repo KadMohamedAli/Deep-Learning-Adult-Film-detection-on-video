@@ -68,7 +68,7 @@ pip install moviepy==2.0.0.dev2
 pip install ipython==8.24.0
 pip install Pillow==10.3.0
 pip install tensorflow==2.10.0
-
+```
 
 ## About
 This project is my Master 2 PFE for graduation from Université Saad Dahleb Blida, Informatics Department.
