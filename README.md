@@ -54,7 +54,14 @@ This script was tested with the following versions of libraries:
 - Pillow (PIL) version: 10.3.0
 - TensorFlow version: 2.10.0
 - Python version: 3.10.14 | packaged by Anaconda, Inc. | (main, Mar 21 2024, 16:20:14) [MSC v.1916 64 bit (AMD64)]
-- Anaconda is not installed or not found in PATH
+
+The following files are also required
+- porn_images_detector.py
+- porn_audios_detector.py
+- final_prediction.py
+- preprocess_sound.py
+
+  FFMPEG is also required
 
 Ensure you have the necessary libraries installed. Use the following commands to install them:
 
