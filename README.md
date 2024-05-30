@@ -4,8 +4,7 @@ This project implements a deep learning approach for detecting pornographic cont
 
 ## Overview
 
-This repository contains all the necessary files to preprocess data, train models, and evaluate their performance. Additionally, a Jupyter notebook is provided to test the models on individual video files or directories of files.
-
+A Jupyter notebook is provided to test the models on individual video files or directories of files. Additionally, this repository contains all the necessary files to preprocess data, train models, and evaluate their performance.(not organized so not really usable for the moment)
 ### Available Models
 
 The trained models are available for download at the following link:
