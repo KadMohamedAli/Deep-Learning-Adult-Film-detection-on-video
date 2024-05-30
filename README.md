@@ -1,24 +1,42 @@
-# Deep-Learning-Pornography-detection-on-video
-A deep learning approch for porn detection on videos using image and sound.
+# Deep Learning Approach for Porn Detection on Videos Using Image and Sound
 
-Models available at : https://drive.google.com/drive/folders/1CEwlOINEgbiC2PGFgF5fpSExXv9BONcw?usp=sharing
+This project implements a deep learning approach for detecting pornographic content in videos by analyzing both images and sounds.
 
-Source have the files to create, train and evaluate the model, also all the preprocessing steps.
+## Overview
 
-predict.ipynb : let you test the model on a video file, or a directory of files.
+This repository contains all the necessary files to preprocess data, train models, and evaluate their performance. Additionally, a Jupyter notebook is provided to test the models on individual video files or directories of files.
 
-Models was trained on LSPD images and images and sound extracted from videos , and tested on LSPD and NPDI-2K and a custom dataset composed of porn video from LSPD and NPDI-2k and videos from local TV.
+### Available Models
 
-99% accuracy score on LSPD (221 videos).
-95% accuracy score on NPDI-2k (773 videos)
-99% accuracy score on custom dataset (352 videos)
+The trained models are available for download at the following link:
+[Download Models](https://drive.google.com/drive/folders/1CEwlOINEgbiC2PGFgF5fpSExXv9BONcw?usp=sharing)
 
-Tested videos was extracted from the correspending dataset and split to 1 minutes videos, we also deleted manualy uncorreclty labelled videos for the testing.
+### Key Files
 
-Results are available on /source/VideoClassification_both.ipynb
+- **predict.ipynb**: A notebook to test the model on a video file or a directory of video files.
+- **/source/VideoClassification_both.ipynb**: Contains the evaluation results of the models.
+
+### Training and Testing
+
+The models were trained using the LSPD dataset and videos with extracted images and sound. Testing was conducted on the LSPD [1], NPDI-2K [2], and a custom dataset comprising pornographic videos from both LSPD and NPDI-2K and videos from local TV.
+
+#### Performance
+
+- **LSPD**: 99% accuracy (221 videos)
+- **NPDI-2K**: 95% accuracy (773 videos)
+- **Custom Dataset**: 99% accuracy (352 videos)
+
+Videos used for testing were extracted from the corresponding datasets and split into 1-minute segments. Incorrectly labeled videos were manually removed for accurate testing.
 
 
-## Tested Versions
+
+
+## Datasets
+**[1]**: Duy, P., Nguyen, T., Nguyen, Q., Tran, H., Khac, N.-K., and Vu, L. (2022). LSPD: A large-scale pornographic dataset for detection and classification. International Journal of Intelligent Engineering and Systems, 15, 198.
+**[2]**: Moreira, D., Avila, S., Perez, M., Moraes, D., Testoni, V., Valle, E., Goldenstein, S., and Rocha, A. (2016). Pornography classification: The hidden clues in video space–time. Forensic Science International, 268, 46–61.
+
+
+
 
 This script was tested with the following versions of libraries:
 
