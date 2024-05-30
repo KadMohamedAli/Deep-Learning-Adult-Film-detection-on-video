@@ -26,17 +26,22 @@ The models were trained using the LSPD dataset and videos with extracted images 
 - **Custom Dataset**: 99% accuracy (352 videos)
 
 Videos used for testing were extracted from the corresponding datasets and split into 1-minute segments. Incorrectly labeled videos were manually removed for accurate testing.
+Image model performs well, unlike the audio model. 
 
 
 
 
 ## Datasets
-**[1]**: Duy, P., Nguyen, T., Nguyen, Q., Tran, H., Khac, N.-K., and Vu, L. (2022). LSPD: A large-scale pornographic dataset for detection and classification. International Journal of Intelligent Engineering and Systems, 15, 198.
-**[2]**: Moreira, D., Avila, S., Perez, M., Moraes, D., Testoni, V., Valle, E., Goldenstein, S., and Rocha, A. (2016). Pornography classification: The hidden clues in video space–time. Forensic Science International, 268, 46–61.
+- **[1]**: Duy, P., Nguyen, T., Nguyen, Q., Tran, H., Khac, N.-K., and Vu, L. (2022). LSPD: A large-scale pornographic dataset for detection and classification. International Journal of Intelligent Engineering and Systems, 15, 198.
+   
+- **[2]**: Moreira, D., Avila, S., Perez, M., Moraes, D., Testoni, V., Valle, E., Goldenstein, S., and Rocha, A. (2016). Pornography classification: The hidden clues in video space–time. Forensic Science International, 268, 46–61.
 
 
 
 
+
+
+## Installation
 This script was tested with the following versions of libraries:
 
 - OpenCV version: 4.9.0
@@ -51,8 +56,6 @@ This script was tested with the following versions of libraries:
 - Python version: 3.10.14 | packaged by Anaconda, Inc. | (main, Mar 21 2024, 16:20:14) [MSC v.1916 64 bit (AMD64)]
 - Anaconda is not installed or not found in PATH
 
-## Installation
-
 Ensure you have the necessary libraries installed. Use the following commands to install them:
 
 ```bash
@@ -65,3 +68,7 @@ pip install moviepy==2.0.0.dev2
 pip install ipython==8.24.0
 pip install Pillow==10.3.0
 pip install tensorflow==2.10.0
+
+
+## About
+This project is my Master 2 PFE for graduation from Université Saad Dahleb Blida, Informatics Department.
