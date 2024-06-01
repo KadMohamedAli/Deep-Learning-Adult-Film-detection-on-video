@@ -39,7 +39,7 @@ def predict(video_path , image_model , audio_model , option = 3 , verbose = True
         print_if_verbose('    1 -> union of results.')
         print_if_verbose('    2 -> intersection of results.')
         print_if_verbose('    3 -> seperate results.')
-        print_if_verbose('    3 -> union + intersection of results.')
+        print_if_verbose('    4 -> union + intersection of results.')
         return None
 
     #supported extensions 
