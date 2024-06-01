@@ -98,6 +98,7 @@ def predict_audio_of_video(video_path,model, frame_duration=0.96, sensibility=0.
             
             if audio_dBFS < audio_threshold:
                 print('    Audio too quiet')
+                os.remove(audio_temp_path)
                 continue
             
             predictions = predict_audio(audio_temp_path,model)
