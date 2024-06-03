@@ -48,7 +48,7 @@ This script was tested with the following versions of libraries:
 - NumPy version: 1.26.4
 - SciPy version: 1.13.1
 - scikit-learn version: 1.5.0
-- pydub version: Not available
+- pydub version: Not specified
 - moviepy version: 2.0.0.dev2
 - IPython version: 8.24.0
 - Pillow (PIL) version: 10.3.0
