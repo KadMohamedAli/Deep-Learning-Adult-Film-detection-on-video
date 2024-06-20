@@ -2,6 +2,8 @@
 
 This project implements a deep learning approach for detecting adult film content in videos by analyzing both images and sounds.
 
+You can try it on : https://colab.research.google.com/drive/1APZ3DeBlRRzZiNcPadAswbGyxw5rFflC?usp=sharing
+
 ## Overview
 
 A Jupyter notebook is provided to test the models on individual video files or directories of files. Additionally, this repository contains all the necessary files to preprocess data, train models, and evaluate their performance.(not organized so not really usable for the moment)
