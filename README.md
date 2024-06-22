@@ -1,4 +1,4 @@
-# Deep Learning Approach for Porn Detection on Videos Using Image and Sound
+# Deep Learning Approach for Adult Content Detection on Videos Using Image and Sound
 
 This project implements a deep learning approach for detecting adult film content in videos by analyzing both images and sounds.
 
